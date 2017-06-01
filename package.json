@@ -8,13 +8,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "postinstall": "echo 'postinstall'",
-    "heroku-postbuild": "echo 'heroku-postbuild'",
-    "heroku-prebuild": "echo 'heroku-prebuild'"
+    "postinstall": "gulp"
   },
   "dependencies": {
     "ejs": "2.5.6",
     "express": "4.15.2"
+  },
+  "devDependencies": {
+    "gulp": "*"
   },
   "repository": {
     "type": "git",
